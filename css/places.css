@@ -75,8 +75,9 @@ html {
 }
 
 h1 {
-	color:red;
-	font-size: 32px;
+
+	  color:red;
+	  font-size: 32px;
     margin:0;
     text-align: center;
 }
@@ -146,7 +147,7 @@ h1 {
   border-radius: 20px;
 
 }
-
+                                  /*clean up old code*/
 h2 {
 
 	color:red;
@@ -158,24 +159,28 @@ h2 {
 .floatleft { 
 
 	 float: left;
-	 margin: 0px 5px 5px 0px;
+	 margin: 0px 0px 0px 0px;
 }
+
+
 
 a { color:#000099
 
 }
 
+ p {
+    font-size: 18px;
+ }
 
 #nav ul {
 
-	font-size: 18px;
     margin:0;
     padding:0;
     list-style:none;
 }
 
 #nav li {
-
+   font-size: 18px;
    display:inline;
    margin:5px;
    padding:0;
