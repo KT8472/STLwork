@@ -113,8 +113,8 @@ h2{
 
 }
 
-.floatleft { 
-	 float: left;
+.floatleft{ 
+	 float: right;
 	 margin: 5px 5px 5px 5px;
 	 
 }
@@ -145,7 +145,7 @@ img {
 	padding-top: 5px;
 	margin: 10px;
 	background: none;
-	border: 1px solid #000000;
+	
 	
 }
  
@@ -154,7 +154,7 @@ img {
 	width: 640px;
 	margin: 10px;
 	background: none;
-	border: 1px solid #000000;
+
 
 }
  
@@ -163,8 +163,11 @@ img {
 	width:440px;
 	margin: 10px;
 	background: none;
-	border: 1px solid #000000;
 	
+}
+
+p {
+	font-size: 20px;
 }
  
 #footer {
