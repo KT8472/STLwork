@@ -1,4 +1,5 @@
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,7 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-
 body,
 
 html {
@@ -58,53 +58,65 @@ html {
    color:#000;
    background:#a7a09a;
 }
+ 
+#wrapper {
 
-#wrap {
-    width:960px;
-    margin:0 auto;
-    background:none;
-    border-radius: 20px;
+	width: 960px;
+	margin:0 auto;
+	padding-top:5px;
+	background: none;
+	margin: 0 auto;
+
+
 }
-
+ 
 #header {
 
-	padding:5px 10px;
-    background:none;
-    border: 1px solid #000000;
-    border-radius: 20px;
+	text-align: center;
+	list-style:none;
+	background: none;
+	color:red;
 }
 
-h1 {
-	color:red;
+h1{
+	text-align: center;
 	font-size: 32px;
-    margin:0;
-    text-align: center;
+
+}
+
+h2{
+	font-size: 18px;
+	color:red;
 }
 
 #nav {
-
-	  text-align: center;
+	  
 	  padding:5px 10px;
-    background:none;
-    border: 1px solid #000000;
-    border-radius: 20px;
+      background:none;
+   
+      
+}
 
+ #nav ul {
+
+	font-size: 18px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nav li {
+   text-align: center;
+   display:inline;
+   margin:5px;
+   padding:0;
 
 }
 
-
-
-#sidebar {
-
-  float:right;
-  width:250px;
-  height:100%;
-  padding:10px;
-  margin-right: 20px;
-  background:none;
-  border: 1px solid #000000;
-  border-radius: 20px;
-
+.floatleft { 
+	 float: left;
+	 margin: 5px 5px 5px 5px;
+	 
 }
 
 .group:before,
@@ -120,63 +132,48 @@ h1 {
   *zoom: 1;
 }
 
+img {
 
+	height:180px;
+	width:280px;
+	
+}
 
+#column-left {
+	float:left;
+	width: 760px;
+	padding-top: 5px;
+	margin: 10px;
+	background: none;
+	border: 1px solid #000000;
+	
+}
+ 
+#column-center {
+	float:left;
+	width: 640px;
+	margin: 10px;
+	background: none;
+	border: 1px solid #000000;
+
+}
+ 
+#column-right {
+	float:left;
+	width:440px;
+	margin: 10px;
+	background: none;
+	border: 1px solid #000000;
+	
+}
+ 
 #footer {
-
-  clear:both;
-  padding:5px 10px;
-  background:none;
-  
-}
-
-#footer p {
-  margin:0;
-
+	
+	clear:both;
+    padding-left:5px;
+    background:none;
 }
 
 
-#main {
-
-  float:left;
-  width:640px;
-  padding:10px;
-  background:none;
-  border: 1px solid #000000;
-  border-radius: 20px;
-
-}
-
-h2 {
-
-	color:red;
-	font-size: 24px;
-  margin:0 0 20px;
-}
 
 
-.floatleft { 
-
-	 float: left;
-	 margin: 0px 5px 5px 0px;
-}
-
-a { color:#000099
-
-}
-
-
-#nav ul {
-
-	font-size: 18px;
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-
-#nav li {
-
-   display:inline;
-   margin:5px;
-   padding:0;
-}
