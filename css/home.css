@@ -1,5 +1,4 @@
 
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,80 +48,66 @@ table {
 	border-spacing: 0;
 }
 
-body,
+/*MY Work*/
 
 html {
 
-   margin:0;
-   padding:0;
-   color:#000;
-   background:#a7a09a;
-}
- 
-#wrapper {
 
-	width: 960px;
-	margin:0 auto;
-	padding-top:5px;
-	background: none;
-	margin: 0 auto;
-
-
-}
- 
-#header {
-
-	text-align: center;
-	list-style:none;
-	background: none;
-	color:red;
+    background:black;
+	background-size: 100px;				/*REMEMBER*/
+	height: 100%
 }
 
-h1{
-	text-align: center;
-	font-size: 32px;
+body {
 
 }
 
-h2{
-	font-size: 18px;
-	color:red;
-}
+#header{
 
-#nav {
-	  
-	  padding:5px 10px;
-      background:none;
-   
-      
-}
-
- #nav, ul {
-
-	font-size: 18px;
-    margin:5px;
-    padding:0;
-   
-}
-
-#nav li {
+   font-size: 50px;
+   margin-bottom: 0px;
    text-align: center;
-   display:inline;
-   margin:5px;
-   padding:0;
+}
+
+h1 {
+
+	color:red;
+    margin:0;
+    text-align: center;
+    font-size: 48px;
+    text-shadow:   1px 1px white;
+    font-style: arial;
+    font-weight: lighter;
+}
+
+h2 {
+
+  font-size: 32px;
+  color:red;
+  text-shadow:   1px 1px white;
+  font-style: arial;
+  font-weight: lighter;
+  text-indent: 15px;
+  letter-spacing: 2px;
+}
+
+p {
+
+	  color:blue;
+    font-family: serif, sans-serif;
+    text-shadow:   1px 1px white;
+    font-weight: lighter;
+    text-indent: 0px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 20px;
+    padding:5px;
+    line-height: 30px;
 
 }
 
-.floatleft{ 
-	 float: right;
-	 margin: 5px 5px 5px 5px;
-	 
-}
+a { color:blue;
 
-.floatright{ 
-	 float: right;
-	 margin: 5px 5px 5px 5px;
-	 
 }
 
 .group:before,
@@ -138,56 +123,43 @@ h2{
   *zoom: 1;
 }
 
-img {
 
-	height:180px;
-	width:280px;
-	
+
+#wrapper {
+
+   width: 100%; 
+   height: 100%;
 }
 
-#column-left {
-	float:left;
-	width: 760px;
-	padding-top: 5px;
-	margin: 10px;
-	background: none;
-	
-	
-}
- 
-#column-center {
-	float:left;
-	width: 760px;
-	margin: 10px;
-	padding-top: 5px;
-	background: none;
-
-
-}
- 
-#column-right {
-
-	float:left;
-	width:760px;
-	margin: 5px;
-	padding-top: 5px;
-	background: none;
+#navigation li {
+    
+    
+	  text-shadow:   1px 1px white;
+    font-style: arial;
+    font-weight: lighter;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding:5px;
+    display:inline;
 
 	
 }
 
-p {
-	font-size: 20px;
-	padding:5px;
+
+#content {
+
+   width: auto;
+   padding: 0px;
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
 }
- 
+
 #footer {
-	
-	clear:both;
+   text-align: center;
+    clear:both;
     padding-left:5px;
     background:none;
 }
-
-
-
-

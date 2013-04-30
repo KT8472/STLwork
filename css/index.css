@@ -1,4 +1,5 @@
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,65 +49,69 @@ table {
 	border-spacing: 0;
 }
 
-
 body,
 
 html {
 
    margin:0;
    padding:0;
-   color:#000;
-   background:#a7a09a;
+   color:blue;
+   background:black;
 }
+ 
+#wrapper {
 
-#wrap {
-    width:960px;
-    margin:0 auto;
-    background:none;
-    border-radius: 20px;
+	width: 960px;
+	margin:0 auto;
+	padding-top:5px;
+
+
+
+
 }
-
+ 
 #header {
 
+	text-align: center;
+	list-style:none;
+	color:blue;
+}
+
+h1{
+	
+	font-size: 48px;
+	text-shadow:   1px 1px white;
+	font-style: arial;
+    font-weight: lighter;
+
+}
+
+h2{
+
+	font-size: 32px;
+	color:blue;
+	text-shadow:   1px 1px white;
+	font-style: arial;
+    font-weight: lighter;
+    text-indent: 50px;
+    letter-spacing: 2px;
+}
+
+#nav li {
+
 	padding:5px 10px;
-    background:none;
-    border: 1px solid #000000;
-    border-radius: 20px;
+	text-shadow:   1px 1px white;
+    font-style: arial;
+    font-weight: lighter;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding:5px;
+    display:inline;
+      
 }
 
-h1 {
-
-	  color:red;
-	  font-size: 32px;
-    margin:0;
-    text-align: center;
-}
-
-#nav {
-
-	  text-align: center;
-	  padding:5px 10px;
-    background:none;
-    border: 1px solid #000000;
-    border-radius: 20px;
-
-
-}
-
-
-
-#sidebar {
-
-  float:right;
-  width:250px;
-  height:100%;
-  padding:10px;
-  margin-right: 20px;
-  background:none;
-  border: 1px solid #000000;
-  border-radius: 20px;
-
-}
 
 .group:before,
 .group:after {
@@ -123,65 +128,58 @@ h1 {
 
 
 
+#column-left {
+
+	float:left;
+	width: 400px;
+	padding-top: 5px;
+	margin: 10px;
+	border-radius: 5px;
+    box-shadow:inset  10px 20px 100px 20px red;
+
+
+}
+
+#column-right {
+
+	 width:400px; 
+     float:right; 
+     clear:right; 
+     padding-top: 5px;
+     margin: 10px; 
+     border-style:solid;  
+	
+}
+
+
+a    {
+
+	color:blue;
+
+}
+	
+
+p {
+	font-family: serif, sans-serif;
+	text-shadow:   1px 1px white;
+    font-weight: lighter;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+	font-size: 20px;
+	padding:5px;
+	max-width: 460px;
+	line-height: 30px;
+
+}
+ 
 #footer {
-
-  clear:both;
-  padding:5px 10px;
-  background:none;
-  
-}
-
-#footer p {
-  margin:0;
-
-}
-
-
-#main {
-
-  float:left;
-  width:640px;
-  padding:10px;
-  background:none;
-  border: 1px solid #000000;
-  border-radius: 20px;
-
-}
-                                  /*clean up old code*/
-h2 {
-
-	color:red;
-	font-size: 24px;
-  margin:0 0 20px;
-}
-
-
-.floatleft { 
-
-	 float: left;
-	 margin: 0px 0px 0px 0px;
+	
+	clear:both;
+    padding-left:5px;
+    background:none;
 }
 
 
 
-a { color:#000099
 
-}
-
- p {
-    font-size: 18px;
- }
-
-#nav ul {
-
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-
-#nav li {
-   font-size: 18px;
-   display:inline;
-   margin:5px;
-   padding:0;
-}
